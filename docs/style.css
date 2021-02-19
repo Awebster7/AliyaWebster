@@ -2,7 +2,9 @@
 body {color: green;
 font-family: arial, helvetica, sans-serif; }
 
-body section section {background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);}
+body {background-image: linear-gradient(white, blue, white,indigo, violet); padding:2em; margin:auto}
+
+section.gallery {background-color:lavender; background-image: none;} 
 
 
 /* ebb: This is a comment in CSS: 
@@ -10,13 +12,15 @@ body section section {background-image: linear-gradient(red, orange, yellow, gre
  * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
  */
 
-
-img.photo {max-width:500px; width:100% }
-
-
+figure{width:30%;}
+img.photo {max-width:200px; width:100% }
 
 
-ol {list-style-type: lower-alpha;
-padding: 5em;
-    
-}
+a{:hover {color: hotpink;}
+
+a{:link {color: hotpink;}
+
+a:{visited {color: hotpink;}
+
+
+ol {list-style-type: lower-alpha;padding: 5em;}
