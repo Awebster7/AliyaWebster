@@ -1,8 +1,8 @@
 
-body {color: green;
+body {color: black;
 font-family: arial, helvetica, sans-serif; }
 
-body {background-image: linear-gradient(white, blue, white,indigo, violet); padding:2em; margin:auto}
+body {background-image: linear-gradient(white, aqua, white,lavender, violet); padding:2em; margin:auto}
 
 section.gallery {background-color:lavender; background-image: none;} 
 
